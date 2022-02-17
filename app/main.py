@@ -1,7 +1,5 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from tkinter import *
-from tkinter import ttk
 from . import models
 from .database import engine
 from .routers import post, user, auth, vote
